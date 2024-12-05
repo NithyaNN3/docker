@@ -6,8 +6,8 @@
 - ENV: setting environment variables.
 - EXPOSE: which port the container will be listening on
 - USER: used for setting the user with
-- CMD: default command to start the container like npm start for example. RUN is a runtime instruction, CMD isn't. Format: ["", ""] where a new shell isn't created and this is the exec form.
-- ENTRYPOINT: 
+- CMD: default command to start the container like npm start for example. RUN is a runtime instruction, CMD isn't. Format: ["", ""] where a new shell process isn't started and this is the exec form.
+- ENTRYPOINT: eg: ["npm", "start"] - same as CMD but not really overwritable. CMD is more for adhoc commands.
 
 - 
 
