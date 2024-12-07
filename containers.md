@@ -1,2 +1,2 @@
 ## Containers
-docker run -d <appname>
+docker run -d <image name>
