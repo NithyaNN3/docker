@@ -1,0 +1,2 @@
+- Each container has a different file system
+- never store data in a container, store it in a volume
