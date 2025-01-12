@@ -5,4 +5,4 @@
 - Containers are lightweight, use OS of the host, starts quickly and need less hardware resources
 - Docker engine runs containers. Containers are processes. Containers share the 'kernel' of the host which means there are specific APIs that communicate with the host OS.
 
-- Docker image - cutdown version of an OS, has a runtime env, third party libraries, env variables, application files. We tell containers to take an image and run it as a process. Can push these images to docker registry.
+- Docker image - the cutdown version of an OS, has a runtime env, third party libraries, env variables, application files. We tell containers to take an image and run it as a process. Can push these images to docker registry.
